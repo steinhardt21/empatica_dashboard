@@ -16,16 +16,24 @@ te app_id that is unique.
 
 The stack adopted was the following:
 * Next.js for UI development (framework for building  server-rendered React applications)
-* GraphQL and NodeJS for the backend
-* Postgress for the database
-
-In particular, due the adoption of GraphQL it was used in the client-server architecture, Apollo client in client side and apollo-server-express on server side.
+* GraphQL and NodeJS for the backend, in particular in the client-server architecture, 'Apollo client' in client side and 'apollo-server-express' on server side
+* Postgress for the database, where each download object is saved as an arrow on the table "download"
 
 In the following image a graphical rappresentation of the solution:
 
 ![alt text](https://miro.medium.com/max/1400/1*e_aSlU1ydbIw0bZhZ9T5eA.png)
 
+## HOW TO RUN THE PROJECT
 
+Note: in order to speed up the testing, in the project it was implemented also a fake JSON server to contain the download objects as JSON and to avoid to create a postgress database locally.
+
+1. [Run the fake JSON server] open a comand line window, go on the project and write: yarn run json:server --port 3002 
+2. [Run the GraphQL server] open another comand line window, go on the project and write: npm run dev:server
+   This will run the server on http://localhost:5000/
+3. [Run the Client] open another comand line window, go on the 'Client' folder and write: npm npm run dev 
+   This will run the client on http://localhost:3000/
+   
+By opening on the browser http://localhost:3000/ it will be seen:
 
 
 ##### Note
