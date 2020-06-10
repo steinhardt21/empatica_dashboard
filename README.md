@@ -27,10 +27,10 @@ In the following image a graphical rappresentation of the solution:
 
 Note: in order to speed up the testing, in the project it was implemented also a fake JSON server to contain the download objects as JSON and to avoid to create a postgress database locally.
 
-1. [Run the fake JSON server] open a command  line window, go on the project and write: `yarn run json:server --port 3002`
-2. [Run the GraphQL server] open another command  line window, go on the project and write: `npm run dev:server`
+1. [Run the fake JSON server] open a command  line window, go on the project and write: `yarn run json:server --port 3002`.
+2. [Run the GraphQL server] open another command  line window, go on the project and write: `npm run dev:server`.
    This will run the server on http://localhost:5000/
-3. [Run the Client] open another command  line window, go on the 'Client' folder and write:`npm run dev`
+3. [Run the Client] open another command  line window, go on the 'Client' folder and write:`npm run dev`.
    This will run the client on http://localhost:3000/
    
 By opening on the browser http://localhost:3000/ it will be seen:
