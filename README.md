@@ -1,7 +1,7 @@
 # Empatica Dashboard
 
 ## Overview of the problem
-Create a web dashboard that can be used internally to show a real time overview of the mobile apps download. 
+Create a web dashboard that can be used internally in Empatica to show a real time overview of the mobile apps download. 
 
 Each download is an object that has these properties:
 * longitude
