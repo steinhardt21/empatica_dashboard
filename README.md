@@ -37,7 +37,7 @@ By opening on the browser http://localhost:3000/ it will be seen:
 
 ![alt text](https://github.com/steinhardt21/empatica_dashboard/blob/master/empatica_dashboard.JPG)
 
-##### Note
+#### Note on the process 
 For the sake of learning new technologies, for this project I studied for the first time GraphQL and the framework Next.js (for server-rendered React applications), beside the fact of going deeper in understand React.
 
 
