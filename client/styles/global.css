@@ -1,0 +1,11 @@
+.marker-btn img
+{
+    width: 20px;
+    height: 20px;
+}
+
+#empatica_design
+{
+    background-color: #bc204b;
+    background-image: linear-gradient(#bc204b, #bc204b 60%, #bc204b);
+}

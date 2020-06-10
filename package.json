@@ -1,0 +1,28 @@
+{
+  "name": "emapatica_dashboard",
+  "version": "1.0.0",
+  "description": "Dashboard that monitors the downloads of Empatica's apps",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev:server": "nodemon server.js",
+    "json:server": "json-server --watch data.json"
+  },
+  "author": "Alex Enax (a.k.a Alexandru Enache)",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "concurrently": "^5.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^15.1.0",
+    "json-server": "^0.16.1",
+    "next": "^9.4.4",
+    "nodemon": "^2.0.4",
+    "pg-promise": "^10.5.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
