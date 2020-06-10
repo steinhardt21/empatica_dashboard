@@ -34,7 +34,7 @@ Note: in order to speed up the testing, in the project it was implemented also a
    This will run the client on http://localhost:3000/
    
 By opening on the browser http://localhost:3000/ it will be seen:
-
+![alt text](https://github.com/steinhardt21/empatica_dashboard/blob/master/empatica_dashboard.JPG)
 
 ##### Note
 For the sake of learning new technologies, for this project I studied for the first time GraphQL and the framework Next.js (for server-rendered React applications), beside the fact of going depper in understand React.
